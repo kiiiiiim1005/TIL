@@ -1,5 +1,5 @@
 set /p Input=Enter Commit Message?: 
-
+git init
 git rm -r --cached .
 git add .
 git commit -m %Input%"
