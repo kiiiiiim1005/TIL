@@ -1,3 +1,4 @@
+@echo off
 set /p Input=Enter Commit Message?: 
 git init
 git rm -r --cached .
